@@ -1,4 +1,4 @@
-from unitests.utils import add, remove_spaces, validation_email
+from utils import add, remove_spaces, validation_email
 import pytest
 
 @pytest.mark.parametrize('x, y, result', [
